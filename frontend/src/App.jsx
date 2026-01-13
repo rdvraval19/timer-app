@@ -11,7 +11,7 @@ function App() {
   const [showAbout, setShowAbout] = useState(false);
   const [previousTime, setPreviousTime] = useState(0);
 
-  const API_URL = 'http://localhost:5000/api/timer';
+  const API_URL = 'http://timer-app-production-859f.up.railway.app/api/timer';
 
   // Poll timer status every 100ms for smooth updates
   useEffect(() => {
